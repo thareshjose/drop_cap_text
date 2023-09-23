@@ -325,7 +325,7 @@ class MarkdownParser {
           text: '',
           markups: markups,
           style: TextStyle(
-            fontWeight: bold ? FontWeight.underline : null,
+            fontWeight: bold ? TextDecoration.underline : null,
             fontStyle: italic ? FontStyle.italic : null,
             decoration: underline ? TextDecoration.underline : null,
           ),
